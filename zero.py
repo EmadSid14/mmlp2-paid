@@ -2890,9 +2890,9 @@ def grap():
             ext10()
           
         else:
-            main_system()
+            main()
          
-        main_system()
+        main()
 
 
 def mineExt():
@@ -2902,7 +2902,7 @@ def mineExt():
     try:
         token=open('token.txt','r').read()
     except:
-        main_system()
+        main()
     os.system('clear')
     print (logo)
     print ("")
@@ -3181,7 +3181,7 @@ def mineExt():
     shutil.move(hok,mvt)
     os.system('rm -rf jok.txt')
     raw_input('[=] Press Enter To Back')
-    main_system()
+    main()
 
 
 
@@ -3192,7 +3192,7 @@ def ext1():
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
         
@@ -3210,14 +3210,14 @@ def ext1():
     shutil.move(file,cop)
     print (' [*] Your File Save In : '+cop)
     raw_input('[!] Press Enter To Back')
-    main_system()
+    main()
 
 def ext2():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3245,14 +3245,14 @@ def ext2():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
 
 def ext3():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3290,14 +3290,14 @@ def ext3():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
 
 def ext4():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3344,14 +3344,14 @@ def ext4():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
 
 def ext5():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3408,14 +3408,14 @@ def ext5():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
 
 def ext6():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3483,14 +3483,14 @@ def ext6():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
     
 def ext7():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3568,14 +3568,14 @@ def ext7():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
 
 def ext8():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3663,14 +3663,14 @@ def ext8():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
 
 def ext9():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3768,14 +3768,14 @@ def ext9():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
     
 def ext10():
     rana=[]
     try:
         token=open('token.txt').read()
     except:
-        main_system()
+        main()
     print ("")
     d1=raw_input('[1] Enter ID : ')
     d2=raw_input('[2] Enter ID : ')
@@ -3883,7 +3883,7 @@ def ext10():
     shutil.move(file,cop)
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
-    main_system()
+    main()
 
 
 
@@ -4037,7 +4037,7 @@ def fileauto():
     print (39*'-')
     print ('')
     raw_input(' Press enter to back ')
-    main_system()
+    main()
 
 def n_f_p_pass():
     os.system('clear')
@@ -4191,7 +4191,7 @@ def n_f_p_pass():
     print (39*'-')
     print ('')
     raw_input(' Press Enter To Back ')
-    main_system()
+    main()
 
 def f_p_pass():
     os.system('clear')
