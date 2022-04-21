@@ -1,6 +1,8 @@
 # Decompile by Mardis (Tools By Kapten-Kaizo)
 # Time Succes decompile : 2022-03-12 17:47:35.910329
 import os, time, requests, datetime, random,multiprocessing.pool, getpass, json, threading, sys, uuid, shutil, zlib, base64
+from xml.dom import NotFoundErr
+from site import main
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 
@@ -141,7 +143,7 @@ def main_input():
         elif c=="3":
             fileauto()
         else:
-            main_system()
+            main()
     elif mx=='4':
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
@@ -158,7 +160,7 @@ def main_input():
         print ("        Member In RK Paid Commands ")
         print ("        ENJOY  KRO BHI LOGO ")
         time.sleep(3.5)
-        main_system()
+        main()
     elif mx=='6':
         os.system("git clone https://github.com/Red-Mafia/PAID-3.git")
         os.system("rm -rf PAID-3")
@@ -172,20 +174,20 @@ def main_input():
     elif mx=='7':
         os.system("xdg-open https://wa.me/+923188214452")
         time.sleep(3)
-        main_system()
+        main()
         
         
     else:
         print ('invild option')
         time.sleep(2)
-        main_system()
+        main()
 
 
 def numcloning():
     if dec in server:
         pass
     else:
-        notf()
+        NotFoundErr()
     ra=[]
     cps=[]
     oks=[]
@@ -206,7 +208,7 @@ def numcloning():
     except (KeyError, IOError):
         print ("File Missing")
         time.sleep (2)
-        main_system()
+        main()
     print ("")
     print ("\033[1;93m\n[*] Total Ids : " +str(len(ra)))
     print ("")
@@ -256,14 +258,14 @@ def numcloning():
     print (40*'-')
     print ('')
     raw_input(' Press Enter To Back ')
-    main_system()
+    main_apv()
 
 
 def fb_menu():
     if dec in server:
         pass
     else:
-        notf()
+        NotFoundErr()
         
     try:
         token=open('token.txt','r').read()
@@ -304,9 +306,9 @@ def fb_menu():
                 print ('\033[1;91m     Your Token Is Expire')
                 time.sleep(3)
                 os.system('rm -rf token.txt')
-                main_system()
+                main()
         else:
-            main_system()
+            main()
     os.system('clear')
     os.system('rm -rf file.txt')
     os.system('rm -rf newlinks.txt')
@@ -391,7 +393,7 @@ def fb_menu():
     elif cz=="4":
         mineExt()
     else:
-        main_system()
+        main()
 
 
 def mineExt():
